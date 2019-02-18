@@ -1,0 +1,6 @@
+framework module MCLogFileLib {
+  umbrella header "MCLogFileLib.h"
+
+  export *
+  module * { export * }
+}
