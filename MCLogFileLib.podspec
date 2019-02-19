@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -95,7 +95,7 @@ Pod::Spec.new do |s|
   #你的SDK路径（因为传的是静态库，这个必须要）
   s.vendored_frameworks = 'MCLogFileLib/MCLogFileLib.framework'
   #SDK头文件路径(可不要)
-  # s.public_header_files = 'MCLogFileLib/MCLogFileLib.framework/Headers/*.{h}'
+  s.public_header_files = 'MCLogFileLib/MCLogFileLib.framework/Headers/*.{h}'
   # s.public_header_files = "Classes/**/*.h"
 
 
@@ -120,7 +120,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
